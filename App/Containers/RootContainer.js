@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { View, StatusBar } from 'react-native'
-import NavigationRouter from '../Navigation/NavigationRouter'
+import Navigation from '../Navigation/AppNavigation'
+import { addNavigationHelpers } from 'react-navigation'
 import { connect } from 'react-redux'
 import StartupActions from '../Redux/StartupRedux'
 import ReduxPersist from '../Config/ReduxPersist'
@@ -17,10 +18,14 @@ class RootContainer extends Component {
   }
 
   render () {
+    const { dispatch, nav } = this.props
+
     return (
       <View style={styles.applicationView}>
         <StatusBar barStyle='light-content' />
-        <NavigationRouter />
+        <Navigation
+          addNavigationHelpers={addNavigationHelpers({dispatch, state: nav})}
+        />
       </View>
     )
   }

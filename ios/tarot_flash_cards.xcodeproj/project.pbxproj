@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -12,7 +13,10 @@
 		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
 		00E356F31AD99517003FC87E /* tarot_flash_cardsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* tarot_flash_cardsTests.m */; };
+		04FC318D6479C9A0915B3162 /* libPods-tarot_flash_cards-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 438CFE7C254205C41FE9173D /* libPods-tarot_flash_cards-tvOSTests.a */; };
+		085F941CD2DC627F58EC1A28 /* libPods-tarot_flash_cards.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4B17E355FD20AF8B726CD3 /* libPods-tarot_flash_cards.a */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
+		13807419761344F29E3E6B48 /* libRNDeviceInfo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A29AA69206264541B0E2FFC5 /* libRNDeviceInfo.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
 		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
@@ -21,6 +25,12 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		18669AE5849144308A20FB31 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF63F72F3D194800A21083C3 /* SimpleLineIcons.ttf */; };
+		18CA675AD6254BFCB3391C6D /* libyoga.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7508ACA21663425F962AEE70 /* libyoga.a */; };
+		196019A330844C5DAFAC5E91 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BD738BFF89A46ADBA8A43E7 /* libReact.a */; };
+		1A44B8E8DFC4429E8F16A229 /* libjschelpers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72FC6CCB9F2F4A5A986BA14D /* libjschelpers.a */; };
+		1E11446484E06C248103AACC /* libPods-tarot_flash_cards-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 256A24825F8277D727965F2C /* libPods-tarot_flash_cards-tvOS.a */; };
+		26B319E8AAE948E3AE776376 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 140B3E9696B34C71845DD57B /* MaterialCommunityIcons.ttf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -33,25 +43,20 @@
 		2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E991DF850E9000B6D8A /* libRCTWebSocket-tvOS.a */; };
 		2D02E4C91E0B4AEC006451C7 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* tarot_flash_cardsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* tarot_flash_cardsTests.m */; };
-		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
-		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		53DE41B6C7F74C6D8C308053 /* libReactNativeConfig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FE29420DED45FE851FC70C /* libReactNativeConfig.a */; };
-		13807419761344F29E3E6B48 /* libRNDeviceInfo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A29AA69206264541B0E2FFC5 /* libRNDeviceInfo.a */; };
-		85BE89CE5935423B9241C8F5 /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 491EB51A4F8F468EB749FA8A /* libRNVectorIcons.a */; };
-		99D3F4EF490B4EFBAAE3F022 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24D8D6C41D78459CB56D488B /* Entypo.ttf */; };
-		84E333418DEE4595AFEC013B /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3830BF3A72B4AF485A2816F /* EvilIcons.ttf */; };
-		9AA85F8379A643428A6B29B7 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AF5DA3874D543558C17944E /* FontAwesome.ttf */; };
 		5DB3CC29BF91421DA782714D /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D6E002342894F9F90B039A9 /* Foundation.ttf */; };
-		9BBEE113FFFB428AAC213060 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B62EE138814EAEAD8C1AE6 /* Ionicons.ttf */; };
-		26B319E8AAE948E3AE776376 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 140B3E9696B34C71845DD57B /* MaterialCommunityIcons.ttf */; };
-		C24B924DDACC4780B37F96E2 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AABAFCA7D0B4079AF9DA67F /* MaterialIcons.ttf */; };
+		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		82D342D59D754950AC326BBB /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A3C5CFB5E244DA0BE187FB7 /* Octicons.ttf */; };
-		18669AE5849144308A20FB31 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF63F72F3D194800A21083C3 /* SimpleLineIcons.ttf */; };
-		9CEBB680592B4D639CFB1B02 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B21D1DAC66064FADB20D60F1 /* Zocial.ttf */; };
-		196019A330844C5DAFAC5E91 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BD738BFF89A46ADBA8A43E7 /* libReact.a */; };
-		18CA675AD6254BFCB3391C6D /* libyoga.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7508ACA21663425F962AEE70 /* libyoga.a */; };
+		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		84E333418DEE4595AFEC013B /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3830BF3A72B4AF485A2816F /* EvilIcons.ttf */; };
+		85BE89CE5935423B9241C8F5 /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 491EB51A4F8F468EB749FA8A /* libRNVectorIcons.a */; };
+		90A20F6023C0ADDF764B8586 /* libPods-tarot_flash_cardsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A82A29999AA94536E0D933 /* libPods-tarot_flash_cardsTests.a */; };
 		97A7334DFE464582899FD303 /* libcxxreact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A2283577C04384A581F7FD /* libcxxreact.a */; };
-		1A44B8E8DFC4429E8F16A229 /* libjschelpers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72FC6CCB9F2F4A5A986BA14D /* libjschelpers.a */; };
+		99D3F4EF490B4EFBAAE3F022 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24D8D6C41D78459CB56D488B /* Entypo.ttf */; };
+		9AA85F8379A643428A6B29B7 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AF5DA3874D543558C17944E /* FontAwesome.ttf */; };
+		9BBEE113FFFB428AAC213060 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B62EE138814EAEAD8C1AE6 /* Ionicons.ttf */; };
+		9CEBB680592B4D639CFB1B02 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B21D1DAC66064FADB20D60F1 /* Zocial.ttf */; };
+		C24B924DDACC4780B37F96E2 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AABAFCA7D0B4079AF9DA67F /* MaterialIcons.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -256,6 +261,8 @@
 		00E356EE1AD99517003FC87E /* tarot_flash_cardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tarot_flash_cardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* tarot_flash_cardsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tarot_flash_cardsTests.m; sourceTree = "<group>"; };
+		0EBA5184B693AB15EC42841B /* Pods-tarot_flash_cardsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tarot_flash_cardsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tarot_flash_cardsTests/Pods-tarot_flash_cardsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		10A2283577C04384A581F7FD /* libcxxreact.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = archive.ar; name = libcxxreact.a; path = libcxxreact.a; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* tarot_flash_cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tarot_flash_cards.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -265,33 +272,43 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = tarot_flash_cards/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = tarot_flash_cards/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = tarot_flash_cards/main.m; sourceTree = "<group>"; };
+		140B3E9696B34C71845DD57B /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		1AABAFCA7D0B4079AF9DA67F /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		24D8D6C41D78459CB56D488B /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		256A24825F8277D727965F2C /* libPods-tarot_flash_cards-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tarot_flash_cards-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* tarot_flash_cards-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tarot_flash_cards-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* tarot_flash_cards-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tarot_flash_cards-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30BB2CA377064D5F43DBA325 /* Pods-tarot_flash_cards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tarot_flash_cards.release.xcconfig"; path = "Pods/Target Support Files/Pods-tarot_flash_cards/Pods-tarot_flash_cards.release.xcconfig"; sourceTree = "<group>"; };
+		32FE29420DED45FE851FC70C /* libReactNativeConfig.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = archive.ar; name = libReactNativeConfig.a; path = libReactNativeConfig.a; sourceTree = "<group>"; };
+		33D8ABED977A62719FB3A24D /* Pods-tarot_flash_cards-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tarot_flash_cards-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tarot_flash_cards-tvOS/Pods-tarot_flash_cards-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		3A3C5CFB5E244DA0BE187FB7 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		438CFE7C254205C41FE9173D /* libPods-tarot_flash_cards-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tarot_flash_cards-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		491EB51A4F8F468EB749FA8A /* libRNVectorIcons.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = archive.ar; name = libRNVectorIcons.a; path = libRNVectorIcons.a; sourceTree = "<group>"; };
+		56FEEF311B99444DA5DA1A1A /* ReactNativeConfig.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = ReactNativeConfig.xcodeproj; path = "../node_modules/react-native-config/ios/ReactNativeConfig.xcodeproj"; sourceTree = "<group>"; };
+		57AF4C816669460F8E3D0AC3 /* RNDeviceInfo.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNDeviceInfo.xcodeproj; path = "../node_modules/react-native-device-info/RNDeviceInfo.xcodeproj"; sourceTree = "<group>"; };
+		5AF5DA3874D543558C17944E /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		64A82A29999AA94536E0D933 /* libPods-tarot_flash_cardsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tarot_flash_cardsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BD738BFF89A46ADBA8A43E7 /* libReact.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = archive.ar; name = libReact.a; path = libReact.a; sourceTree = "<group>"; };
+		6D6E002342894F9F90B039A9 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		6E4B17E355FD20AF8B726CD3 /* libPods-tarot_flash_cards.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tarot_flash_cards.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72FC6CCB9F2F4A5A986BA14D /* libjschelpers.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = archive.ar; name = libjschelpers.a; path = libjschelpers.a; sourceTree = "<group>"; };
+		7508ACA21663425F962AEE70 /* libyoga.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = archive.ar; name = libyoga.a; path = libyoga.a; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		56FEEF311B99444DA5DA1A1A /* ReactNativeConfig.xcodeproj */ = {isa = PBXFileReference; name = "ReactNativeConfig.xcodeproj"; path = "../node_modules/react-native-config/ios/ReactNativeConfig.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		32FE29420DED45FE851FC70C /* libReactNativeConfig.a */ = {isa = PBXFileReference; name = "libReactNativeConfig.a"; path = "libReactNativeConfig.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		57AF4C816669460F8E3D0AC3 /* RNDeviceInfo.xcodeproj */ = {isa = PBXFileReference; name = "RNDeviceInfo.xcodeproj"; path = "../node_modules/react-native-device-info/RNDeviceInfo.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		A29AA69206264541B0E2FFC5 /* libRNDeviceInfo.a */ = {isa = PBXFileReference; name = "libRNDeviceInfo.a"; path = "libRNDeviceInfo.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		916539C4C07647F890C7C96E /* RNVectorIcons.xcodeproj */ = {isa = PBXFileReference; name = "RNVectorIcons.xcodeproj"; path = "../node_modules/react-native-vector-icons/RNVectorIcons.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		491EB51A4F8F468EB749FA8A /* libRNVectorIcons.a */ = {isa = PBXFileReference; name = "libRNVectorIcons.a"; path = "libRNVectorIcons.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		24D8D6C41D78459CB56D488B /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A3830BF3A72B4AF485A2816F /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5AF5DA3874D543558C17944E /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6D6E002342894F9F90B039A9 /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B3B62EE138814EAEAD8C1AE6 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		140B3E9696B34C71845DD57B /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		1AABAFCA7D0B4079AF9DA67F /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3A3C5CFB5E244DA0BE187FB7 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		BF63F72F3D194800A21083C3 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B21D1DAC66064FADB20D60F1 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		EA06137E24FA4B1381A48686 /* RNI18n.xcodeproj */ = {isa = PBXFileReference; name = "RNI18n.xcodeproj"; path = "../node_modules/react-native-i18n/RNI18n.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		6BD738BFF89A46ADBA8A43E7 /* libReact.a */ = {isa = PBXFileReference; name = "libReact.a"; path = "libReact.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		7508ACA21663425F962AEE70 /* libyoga.a */ = {isa = PBXFileReference; name = "libyoga.a"; path = "libyoga.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		10A2283577C04384A581F7FD /* libcxxreact.a */ = {isa = PBXFileReference; name = "libcxxreact.a"; path = "libcxxreact.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		72FC6CCB9F2F4A5A986BA14D /* libjschelpers.a */ = {isa = PBXFileReference; name = "libjschelpers.a"; path = "libjschelpers.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		83D027509E7C1D92412A20BC /* Pods-tarot_flash_cards-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tarot_flash_cards-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tarot_flash_cards-tvOSTests/Pods-tarot_flash_cards-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		916539C4C07647F890C7C96E /* RNVectorIcons.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNVectorIcons.xcodeproj; path = "../node_modules/react-native-vector-icons/RNVectorIcons.xcodeproj"; sourceTree = "<group>"; };
+		A08C997CF4F88B7A68E986F4 /* Pods-tarot_flash_cards-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tarot_flash_cards-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-tarot_flash_cards-tvOS/Pods-tarot_flash_cards-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		A29AA69206264541B0E2FFC5 /* libRNDeviceInfo.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = archive.ar; name = libRNDeviceInfo.a; path = libRNDeviceInfo.a; sourceTree = "<group>"; };
+		A3830BF3A72B4AF485A2816F /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		B21D1DAC66064FADB20D60F1 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		B3B62EE138814EAEAD8C1AE6 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		BF451F890C58EDD65DEFBC95 /* Pods-tarot_flash_cards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tarot_flash_cards.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tarot_flash_cards/Pods-tarot_flash_cards.debug.xcconfig"; sourceTree = "<group>"; };
+		BF63F72F3D194800A21083C3 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		D7ABBF6495ABB7F510AE2EA3 /* Pods-tarot_flash_cardsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tarot_flash_cardsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tarot_flash_cardsTests/Pods-tarot_flash_cardsTests.release.xcconfig"; sourceTree = "<group>"; };
+		E911340EFFD0E222355AB317 /* Pods-tarot_flash_cards-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tarot_flash_cards-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tarot_flash_cards-tvOSTests/Pods-tarot_flash_cards-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		EA06137E24FA4B1381A48686 /* RNI18n.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNI18n.xcodeproj; path = "../node_modules/react-native-i18n/RNI18n.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -300,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
+				90A20F6023C0ADDF764B8586 /* libPods-tarot_flash_cardsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +343,7 @@
 				18CA675AD6254BFCB3391C6D /* libyoga.a in Frameworks */,
 				97A7334DFE464582899FD303 /* libcxxreact.a in Frameworks */,
 				1A44B8E8DFC4429E8F16A229 /* libjschelpers.a in Frameworks */,
+				085F941CD2DC627F58EC1A28 /* libPods-tarot_flash_cards.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +359,7 @@
 				2D02E4C61E0B4AEC006451C7 /* libRCTSettings-tvOS.a in Frameworks */,
 				2D02E4C71E0B4AEC006451C7 /* libRCTText-tvOS.a in Frameworks */,
 				2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */,
+				1E11446484E06C248103AACC /* libPods-tarot_flash_cards-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +367,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FC318D6479C9A0915B3162 /* libPods-tarot_flash_cards-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +480,39 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		1B34BDA2E1954B5881F810DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				24D8D6C41D78459CB56D488B /* Entypo.ttf */,
+				A3830BF3A72B4AF485A2816F /* EvilIcons.ttf */,
+				5AF5DA3874D543558C17944E /* FontAwesome.ttf */,
+				6D6E002342894F9F90B039A9 /* Foundation.ttf */,
+				B3B62EE138814EAEAD8C1AE6 /* Ionicons.ttf */,
+				140B3E9696B34C71845DD57B /* MaterialCommunityIcons.ttf */,
+				1AABAFCA7D0B4079AF9DA67F /* MaterialIcons.ttf */,
+				3A3C5CFB5E244DA0BE187FB7 /* Octicons.ttf */,
+				BF63F72F3D194800A21083C3 /* SimpleLineIcons.ttf */,
+				B21D1DAC66064FADB20D60F1 /* Zocial.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
+		56FBC6423A85730629C6FD85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF451F890C58EDD65DEFBC95 /* Pods-tarot_flash_cards.debug.xcconfig */,
+				30BB2CA377064D5F43DBA325 /* Pods-tarot_flash_cards.release.xcconfig */,
+				33D8ABED977A62719FB3A24D /* Pods-tarot_flash_cards-tvOS.debug.xcconfig */,
+				A08C997CF4F88B7A68E986F4 /* Pods-tarot_flash_cards-tvOS.release.xcconfig */,
+				83D027509E7C1D92412A20BC /* Pods-tarot_flash_cards-tvOSTests.debug.xcconfig */,
+				E911340EFFD0E222355AB317 /* Pods-tarot_flash_cards-tvOSTests.release.xcconfig */,
+				0EBA5184B693AB15EC42841B /* Pods-tarot_flash_cardsTests.debug.xcconfig */,
+				D7ABBF6495ABB7F510AE2EA3 /* Pods-tarot_flash_cardsTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5E91572E1DD0AC6500FF2AA8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -516,6 +570,8 @@
 				00E356EF1AD99517003FC87E /* tarot_flash_cardsTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				1B34BDA2E1954B5881F810DD /* Resources */,
+				56FBC6423A85730629C6FD85 /* Pods */,
+				B7B8B150DDFEA05CDF2AF68D /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -532,22 +588,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1B34BDA2E1954B5881F810DD /* Resources */ = {
+		B7B8B150DDFEA05CDF2AF68D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				24D8D6C41D78459CB56D488B /* Entypo.ttf */,
-				A3830BF3A72B4AF485A2816F /* EvilIcons.ttf */,
-				5AF5DA3874D543558C17944E /* FontAwesome.ttf */,
-				6D6E002342894F9F90B039A9 /* Foundation.ttf */,
-				B3B62EE138814EAEAD8C1AE6 /* Ionicons.ttf */,
-				140B3E9696B34C71845DD57B /* MaterialCommunityIcons.ttf */,
-				1AABAFCA7D0B4079AF9DA67F /* MaterialIcons.ttf */,
-				3A3C5CFB5E244DA0BE187FB7 /* Octicons.ttf */,
-				BF63F72F3D194800A21083C3 /* SimpleLineIcons.ttf */,
-				B21D1DAC66064FADB20D60F1 /* Zocial.ttf */,
+				6E4B17E355FD20AF8B726CD3 /* libPods-tarot_flash_cards.a */,
+				256A24825F8277D727965F2C /* libPods-tarot_flash_cards-tvOS.a */,
+				438CFE7C254205C41FE9173D /* libPods-tarot_flash_cards-tvOSTests.a */,
+				64A82A29999AA94536E0D933 /* libPods-tarot_flash_cardsTests.a */,
 			);
-			name = Resources;
-			path = "";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -557,9 +606,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "tarot_flash_cardsTests" */;
 			buildPhases = (
+				287066E5A2F7E6965CD15BE2 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				E9222EDB82940BC037DD9B5A /* [CP] Embed Pods Frameworks */,
+				B77E40834AA576F7C900EC7C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -575,10 +627,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "tarot_flash_cards" */;
 			buildPhases = (
+				031F1526A6A9524F66A2E35C /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				FECF65A6C34AC02065042B14 /* [CP] Embed Pods Frameworks */,
+				560E944FEA16D0EDC424C44F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -593,10 +648,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "tarot_flash_cards-tvOS" */;
 			buildPhases = (
+				883F749C617A0E1ABFEC9752 /* [CP] Check Pods Manifest.lock */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
 				2D02E4791E0B4A5D006451C7 /* Resources */,
 				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+				1C235F2201F1FC1ED8768421 /* [CP] Embed Pods Frameworks */,
+				06E4AFA77C14B5B746FD0323 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -611,9 +669,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "tarot_flash_cards-tvOSTests" */;
 			buildPhases = (
+				F2CBA57DD5455B177F1663B7 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
+				74539FBE02CBD6638CA61D00 /* [CP] Embed Pods Frameworks */,
+				8B4B002EF86C4F2A4D3CBAE8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -953,6 +1014,66 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
 		};
+		031F1526A6A9524F66A2E35C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		06E4AFA77C14B5B746FD0323 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tarot_flash_cards-tvOS/Pods-tarot_flash_cards-tvOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C235F2201F1FC1ED8768421 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tarot_flash_cards-tvOS/Pods-tarot_flash_cards-tvOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		287066E5A2F7E6965CD15BE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -966,6 +1087,126 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
+		};
+		560E944FEA16D0EDC424C44F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tarot_flash_cards/Pods-tarot_flash_cards-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74539FBE02CBD6638CA61D00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tarot_flash_cards-tvOSTests/Pods-tarot_flash_cards-tvOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		883F749C617A0E1ABFEC9752 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8B4B002EF86C4F2A4D3CBAE8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tarot_flash_cards-tvOSTests/Pods-tarot_flash_cards-tvOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B77E40834AA576F7C900EC7C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tarot_flash_cardsTests/Pods-tarot_flash_cardsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9222EDB82940BC037DD9B5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tarot_flash_cardsTests/Pods-tarot_flash_cardsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2CBA57DD5455B177F1663B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FECF65A6C34AC02065042B14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tarot_flash_cards/Pods-tarot_flash_cards-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1034,21 +1275,23 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EBA5184B693AB15EC42841B /* Pods-tarot_flash_cardsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
+					"$(SRCROOT)/../node_modules/react-native-device-info/RNDeviceInfo",
+					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/react-native-i18n/RNI18n",
+				);
 				INFOPLIST_FILE = tarot_flash_cardsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lc++",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tarot_flash_cards.app/tarot_flash_cards";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1059,56 +1302,64 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
-					"$(SRCROOT)/../node_modules/react-native-device-info/RNDeviceInfo",
-					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
-					"$(SRCROOT)/../node_modules/react-native-i18n/RNI18n",
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
 				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tarot_flash_cards.app/tarot_flash_cards";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7ABBF6495ABB7F510AE2EA3 /* Pods-tarot_flash_cardsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
+					"$(SRCROOT)/../node_modules/react-native-device-info/RNDeviceInfo",
+					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/react-native-i18n/RNI18n",
+				);
 				INFOPLIST_FILE = tarot_flash_cardsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tarot_flash_cards.app/tarot_flash_cards";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
-					"$(SRCROOT)/../node_modules/react-native-device-info/RNDeviceInfo",
-					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
-					"$(SRCROOT)/../node_modules/react-native-i18n/RNI18n",
-				);
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF451F890C58EDD65DEFBC95 /* Pods-tarot_flash_cards.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
+					"$(SRCROOT)/../node_modules/react-native-device-info/RNDeviceInfo",
+					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/react-native-i18n/RNI18n",
+				);
 				INFOPLIST_FILE = tarot_flash_cards/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1118,21 +1369,22 @@
 				);
 				PRODUCT_NAME = tarot_flash_cards;
 				VERSIONING_SYSTEM = "apple-generic";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
-					"$(SRCROOT)/../node_modules/react-native-device-info/RNDeviceInfo",
-					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
-					"$(SRCROOT)/../node_modules/react-native-i18n/RNI18n",
-				);
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30BB2CA377064D5F43DBA325 /* Pods-tarot_flash_cards.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
+					"$(SRCROOT)/../node_modules/react-native-device-info/RNDeviceInfo",
+					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/react-native-i18n/RNI18n",
+				);
 				INFOPLIST_FILE = tarot_flash_cards/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1142,18 +1394,12 @@
 				);
 				PRODUCT_NAME = tarot_flash_cards;
 				VERSIONING_SYSTEM = "apple-generic";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
-					"$(SRCROOT)/../node_modules/react-native-device-info/RNDeviceInfo",
-					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
-					"$(SRCROOT)/../node_modules/react-native-i18n/RNI18n",
-				);
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33D8ABED977A62719FB3A24D /* Pods-tarot_flash_cards-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1164,17 +1410,15 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
+					"$(SRCROOT)/../node_modules/react-native-device-info/RNDeviceInfo",
+					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/react-native-i18n/RNI18n",
+				);
 				INFOPLIST_FILE = "tarot_flash_cards-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lc++",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.tarot_flash_cards-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1185,18 +1429,21 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
-					"$(SRCROOT)/../node_modules/react-native-device-info/RNDeviceInfo",
-					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
-					"$(SRCROOT)/../node_modules/react-native-i18n/RNI18n",
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.tarot_flash_cards-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
 			name = Debug;
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A08C997CF4F88B7A68E986F4 /* Pods-tarot_flash_cards-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1207,17 +1454,15 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
+					"$(SRCROOT)/../node_modules/react-native-device-info/RNDeviceInfo",
+					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/react-native-i18n/RNI18n",
+				);
 				INFOPLIST_FILE = "tarot_flash_cards-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lc++",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.tarot_flash_cards-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1228,18 +1473,21 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
-					"$(SRCROOT)/../node_modules/react-native-device-info/RNDeviceInfo",
-					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
-					"$(SRCROOT)/../node_modules/react-native-i18n/RNI18n",
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.tarot_flash_cards-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
 			name = Release;
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83D027509E7C1D92412A20BC /* Pods-tarot_flash_cards-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1251,11 +1499,6 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "tarot_flash_cards-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.tarot_flash_cards-tvOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tarot_flash_cards-tvOS.app/tarot_flash_cards-tvOS";
-				TVOS_DEPLOYMENT_TARGET = 10.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1266,11 +1509,17 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.tarot_flash_cards-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tarot_flash_cards-tvOS.app/tarot_flash_cards-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E911340EFFD0E222355AB317 /* Pods-tarot_flash_cards-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1282,11 +1531,6 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "tarot_flash_cards-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.tarot_flash_cards-tvOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tarot_flash_cards-tvOS.app/tarot_flash_cards-tvOS";
-				TVOS_DEPLOYMENT_TARGET = 10.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1297,6 +1541,11 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.tarot_flash_cards-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tarot_flash_cards-tvOS.app/tarot_flash_cards-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
 		};
