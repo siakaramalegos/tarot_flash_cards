@@ -74,6 +74,9 @@ const ApplicationStyles = {
     borderColor: Colors.ember,
     alignItems: 'center',
     textAlign: 'center'
+  },
+  linearGradient: {
+    flex: 1
   }
 }
 

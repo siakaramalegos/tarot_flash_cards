@@ -4,16 +4,17 @@ import { TabNavigator, TabBarBottom } from 'react-navigation'
 // import BreakDetailScreen from '../Containers/BreakDetailScreen'
 // import LocationScreen from '../Containers/LocationScreen'
 import AboutScreen from '../Containers/AboutScreen'
+import FlashCardsScreen from '../Containers/FlashCardsScreen'
 import styles from './Styles/AppNavigationStyles'
 
 const TabNav = TabNavigator({
-  Location: { screen: AboutScreen },
+  FlashCards: { screen: FlashCardsScreen },
   About: { screen: AboutScreen }
 }, {
   tabBarComponent: TabBarBottom,
   tabBarPosition: 'bottom',
   animationEnabled: true,
-  swipeEnabled: true,
+  swipeEnabled: false,
   headerMode: 'none',
   initialRouteName: 'About',
   tabBarOptions: {

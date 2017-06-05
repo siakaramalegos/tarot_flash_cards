@@ -1,14 +1,14 @@
 import { StyleSheet } from 'react-native'
-import { ApplicationStyles, Colors } from '../../Themes/'
+import { ApplicationStyles, Colors, Metrics } from '../../Themes/'
 
-const section = {
-  flex: 1,
-  alignItems: 'center',
-  justifyContent: 'center',
-  marginHorizontal: 20,
-  paddingVertical: 50,
-  backgroundColor: Colors.transparent
-}
+// const section = {
+//   flex: 1,
+//   alignItems: 'center',
+//   justifyContent: 'center',
+//   marginHorizontal: 20,
+//   paddingVertical: 50,
+//   backgroundColor: Colors.transparent
+// }
 
 export default StyleSheet.create({
   ...ApplicationStyles.screen,
@@ -16,35 +16,34 @@ export default StyleSheet.create({
     flex: 1
   },
   mainHeading: {
+    backgroundColor: Colors.transparent,
+    color: Colors.snow,
     fontFamily: 'Avenir-Black',
     fontSize: 31,
-    letterSpacing: 0.2,
-    color: Colors.snow
+    letterSpacing: 0.2
   },
   heading: {
-    marginTop: 14,
-    fontFamily: 'Avenir-Black',
-    fontSize: 31,
-    letterSpacing: 0.2,
     backgroundColor: Colors.transparent,
-    color: Colors.snow
+    color: Colors.snow,
+    fontFamily: 'Avenir-Black',
+    fontSize: 22,
+    letterSpacing: 0.2,
+    marginTop: 14,
+    textAlign: 'center'
   },
   description: {
-    textAlign: 'center',
+    // textAlign: 'center',
     fontFamily: 'Avenir-Medium',
     fontSize: 15,
+    backgroundColor: Colors.transparent,
     color: '#FDE5FF',
     letterSpacing: 0.47,
-    lineHeight: 23
+    lineHeight: 23,
+    paddingHorizontal: 30
   },
   hashtag: {
     fontFamily: 'Avenir-Black',
     color: Colors.snow
-  },
-  twitter: {
-    ...section,
-    borderBottomColor: '#7B5888',
-    borderBottomWidth: 1
   },
   slack: {
     alignItems: 'center',
@@ -52,24 +51,17 @@ export default StyleSheet.create({
     paddingTop: 55,
     paddingBottom: 35
   },
-  slackButton: {
-    marginTop: 25
-  },
-  sponsorTierTitle: {
-    marginTop: 60,
-    marginBottom: 30,
-    fontFamily: 'Avenir-Black',
-    fontSize: 15,
-    color: Colors.snow,
-    letterSpacing: 0.47,
-    lineHeight: 23
-  },
-  sponsorTier: {
+  social: {
     flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center'
+    marginBottom: 30
   },
-  sponsor: {
-    marginHorizontal: 15
+  socialLink: {
+    marginRight: 30
+  },
+  searchIcon: {
+    left: Metrics.doubleBaseMargin,
+    alignSelf: 'center',
+    color: Colors.snow,
+    backgroundColor: Colors.transparent
   }
 })
