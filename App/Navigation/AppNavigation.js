@@ -21,7 +21,7 @@ const TabNav = TabNavigator({
     style: styles.tabBar,
     labelStyle: styles.tabBarLabel,
     activeTintColor: 'white',
-    inactiveTintColor: 'white'
+    inactiveTintColor: 'white',
   }
 })
 
