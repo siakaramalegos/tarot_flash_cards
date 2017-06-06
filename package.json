@@ -5,6 +5,7 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "lint": "eslint *.js App/**/*.js Tests/**/*.js",
+    "lintdiff": "git diff --name-only --cached --relative | grep '\\.js$' | xargs eslint",
     "clean": "rm -rf $TMPDIR/react-* && watchman watch-del-all && npm cache clean",
     "clean:android": "cd android/ && ./gradlew clean && cd .. && react-native run-android",
     "newclear": "rm -rf $TMPDIR/react-* && watchman watch-del-all && rm -rf ios/build && rm -rf node_modules/ && npm cache clean && npm i",
@@ -19,7 +20,7 @@
     "android:shake": "$ANDROID_HOME/platform-tools/adb devices | grep '\\t' | awk '{print $1}' | sed 's/\\s//g' | xargs -I {} $ANDROID_HOME/platform-tools/adb -s {} shell input keyevent 82",
     "precommit": "npm run git-hook",
     "prepush": "npm run git-hook",
-    "git-hook": "npm run lint -s && npm test -s"
+    "git-hook": "npm run lintdiff -s && npm test -s"
   },
   "dependencies": {
     "apisauce": "0.11.0",
