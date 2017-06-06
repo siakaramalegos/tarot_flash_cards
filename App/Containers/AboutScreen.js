@@ -5,7 +5,7 @@ import {
   ScrollView,
   Text,
   TouchableOpacity,
-  View
+  View,
 } from 'react-native'
 import LinearGradient from 'react-native-linear-gradient'
 import styles from './Styles/AboutScreenStyle'
@@ -17,10 +17,10 @@ class About extends React.Component {
     tabBarLabel: 'About',
     tabBarIcon: ({ focused }) => (
       <Image source={focused ? Images.activeInfoIcon : Images.inactiveInfoIcon} />
-    )
+    ),
   }
 
-  render () {
+  render() {
     const gradient = ['#136EB5', 'rgba(1,192,182,0.88)']
 
     return (

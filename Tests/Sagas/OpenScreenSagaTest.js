@@ -11,11 +11,13 @@ const stepper = (fn) => (mock) => fn.next(mock).value
 test('the right default options are passed to the navigation action', (t) => {
   const mock = {screen: 'myScreen'}
   const step = stepper(openScreen(mock))
-  t.deepEqual(step(), call(NavigationActions['myScreen'], {type: ActionConst.RESET}))
+
+  t.deepEqual(step(), call(NavigationActions.myScreen, {type: ActionConst.RESET}))
 })
 
 test('the right merged options are passed to the navigation action', (t) => {
   const mock = {screen: 'myScreen', options: {type: 'replace', foo: 'bar'}}
   const step = stepper(openScreen(mock))
-  t.deepEqual(step(), call(NavigationActions['myScreen'], {type: 'replace', foo: 'bar'}))
+
+  t.deepEqual(step(), call(NavigationActions.myScreen, {type: 'replace', foo: 'bar'}))
 })

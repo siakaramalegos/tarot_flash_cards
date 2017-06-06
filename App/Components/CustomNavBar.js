@@ -6,7 +6,7 @@ import Icon from 'react-native-vector-icons/Ionicons'
 import { Actions as NavigationActions } from 'react-native-router-flux'
 
 export default class CustomNavBar extends React.Component {
-  render () {
+  render() {
     return (
       <Animated.View style={Styles.container}>
         <TouchableOpacity style={Styles.leftButton} onPress={NavigationActions.pop}>

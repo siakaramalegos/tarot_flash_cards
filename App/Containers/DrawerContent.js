@@ -4,7 +4,7 @@ import styles from './Styles/DrawerContentStyles'
 import { Images } from '../Themes'
 
 class DrawerContent extends Component {
-  componentDidMount () {
+  componentDidMount() {
     BackAndroid.addEventListener('hardwareBackPress', () => {
       if (this.context.drawer.props.open) {
         this.toggleDrawer()
@@ -14,11 +14,11 @@ class DrawerContent extends Component {
     })
   }
 
-  toggleDrawer () {
+  toggleDrawer() {
     this.context.drawer.toggle()
   }
 
-  render () {
+  render() {
     return (
       <ScrollView style={styles.container}>
         <Image source={Images.logo} style={styles.logo} />
@@ -28,7 +28,7 @@ class DrawerContent extends Component {
 }
 
 DrawerContent.contextTypes = {
-  drawer: React.PropTypes.object
+  drawer: React.PropTypes.object,
 }
 
 export default DrawerContent

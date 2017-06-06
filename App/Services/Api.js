@@ -14,10 +14,10 @@ const create = (baseURL = 'https://api.github.com/') => {
     baseURL,
     // here are some default headers
     headers: {
-      'Cache-Control': 'no-cache'
+      'Cache-Control': 'no-cache',
     },
     // 10 second timeout...
-    timeout: 10000
+    timeout: 10000,
   })
 
   // Wrap api's addMonitor to allow the calling code to attach
@@ -61,11 +61,11 @@ const create = (baseURL = 'https://api.github.com/') => {
     // a list of the API functions from step 2
     getRoot,
     getRate,
-    getUser
+    getUser,
   }
 }
 
 // let's return back our create method as the default.
 export default {
-  create
+  create,
 }

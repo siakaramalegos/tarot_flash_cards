@@ -19,6 +19,6 @@ export default StyleSheet.create({
   },
   card: {
     opacity: 1,
-    backgroundColor: Colors.darkGreen
+    backgroundColor: Colors.snow,
   }
 })
