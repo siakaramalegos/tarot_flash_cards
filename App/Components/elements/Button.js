@@ -13,13 +13,13 @@ const styles = {
     borderColor: Colors.darkGreen,
     borderRadius: 100,
     backgroundColor: Colors.clear,
-    height: 34
+    height: 34,
   },
   text: {
     ...Fonts.style.h5,
     color: Colors.darkGreen,
-    marginVertical: Metrics.baseMargin
-  }
+    marginVertical: Metrics.baseMargin,
+  },
 }
 
 // TODO: add color prop

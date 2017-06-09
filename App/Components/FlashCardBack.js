@@ -11,6 +11,9 @@ export default class FlashCardBack extends Component {
     currentCard: PropTypes.object.isRequired,
     success: PropTypes.func.isRequired,
     fail: PropTypes.func.isRequired,
+    navigation: PropTypes.shape({
+      navigate: PropTypes.func,
+    }),
   };
 
   static navigationOptions = {
@@ -20,14 +23,15 @@ export default class FlashCardBack extends Component {
     ),
   }
 
+  // TODO: for both success and fail, animation ends up showing the data on old screen. Use params instead?
   onSuccess = () => {
-    this.props.success()
     this.props.navigation.navigate('Front')
+    this.props.success()
   }
 
   onFail = () => {
-    this.props.fail()
     this.props.navigation.navigate('Front')
+    this.props.fail()
   }
 
   render() {
