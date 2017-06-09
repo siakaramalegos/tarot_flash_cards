@@ -3,8 +3,6 @@ import {shuffle} from 'lodash'
 
 // Action types
 const START_BUCKET = 'START_BUCKET'
-// const UPDATE_CURRENT_CARD = 'UPDATE_CURRENT_CARD'
-// const UPDATE_CURRENT_BUCKET = 'UPDATE_CURRENT_BUCKET'
 const SUCCESS = 'SUCCESS'
 const FAIL = 'FAIL'
 const RESET_STATE = 'RESET_STATE'

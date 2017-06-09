@@ -11,6 +11,7 @@ const CardStack = StackNavigator({
   headerMode: 'none',
   initialRouteName: 'Front',
   cardStyle: styles.card,
+  swipeEnabled: false,
 })
 
 const TabNav = TabNavigator({

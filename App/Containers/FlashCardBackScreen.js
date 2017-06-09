@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
-// Add Actions - replace 'Your' with whatever your reducer is called :)
-// import YourActions from '../Redux/YourRedux'
+import {bindActionCreators} from 'redux'
+import {success, fail} from '../Redux/CardRedux'
 import FlashCardBack from '../Components/FlashCardBack'
 
 const mapStateToProps = (state) => {
@@ -9,9 +9,11 @@ const mapStateToProps = (state) => {
   }
 }
 
-// const mapDispatchToProps = (dispatch) => {
-//   return {
-//   }
-// }
+const mapDispatchToProps = (dispatch) => {
+  return bindActionCreators({success, fail}, dispatch)
+}
 
-export default connect(mapStateToProps)(FlashCardBack)
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps,
+)(FlashCardBack)
