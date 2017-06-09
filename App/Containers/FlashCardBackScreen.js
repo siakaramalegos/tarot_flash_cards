@@ -1,62 +1,21 @@
-import React from 'react'
-import { View, Text, Image } from 'react-native'
-import { Images } from '../Themes'
-// import { connect } from 'react-redux'
-// Add Actions - replace 'Your' with whatever your reducer is called :)
-// import YourActions from '../Redux/YourRedux'
+import { connect } from 'react-redux'
+import {bindActionCreators} from 'redux'
+import {success, fail} from '../Redux/CardRedux'
+import FlashCardBack from '../Components/FlashCardBack'
 
-// Styles
-import styles from './Styles/FlashCardsScreenStyle'
-
-// Temporary data mock
-const data = {
-  filename: 'fool',
-  cardName: 'Fool',
-  correspondences: {
-    element: 'water',
-    zodiac: 'capricorn',
-    planet: 'jupiter',
-  },
-  keywords: ['earth', 'wind', 'fire', 'more'],
+const mapStateToProps = (state) => {
+  // TODO: add reselect?
+  return {
+    currentCard: state.cards.currentCard,
+    bucketEmpty: state.cards.currentBucket.length === 0,
+  }
 }
 
-class FlashCardBack extends React.Component {
-  static navigationOptions = {
-    tabBarLabel: 'Flash Cards',
-    tabBarIcon: ({ focused }) => (
-      <Image source={focused ? Images.activeLocationIcon : Images.inactiveLocationIcon} />
-    ),
-  }
-
-  render() {
-    const keywords = data.keywords.map((keyword) => (
-      <Text key={keyword}> * {keyword}</Text>
-    ))
-
-    return (
-      <View style={styles.container}>
-        <Text>{data.cardName}</Text>
-        <Text>element: {data.correspondences.element}</Text>
-        <Text>zodiac: {data.correspondences.zodiac}</Text>
-        <Text>planet: {data.correspondences.planet}</Text>
-        <Text>keywords: </Text>
-        <Text>{keywords}</Text>
-      </View>
-    )
-  }
-
+const mapDispatchToProps = (dispatch) => {
+  return bindActionCreators({success, fail}, dispatch)
 }
 
-export default FlashCardBack
-
-// const mapStateToProps = (state) => {
-//   return {
-//   }
-// }
-
-// const mapDispatchToProps = (dispatch) => {
-//   return {
-//   }
-// }
-
-// export default connect(mapStateToProps, mapDispatchToProps)(FlashCards)
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps,
+)(FlashCardBack)
