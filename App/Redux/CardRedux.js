@@ -5,7 +5,6 @@ import {shuffle} from 'lodash'
 const START_BUCKET = 'START_BUCKET'
 const SUCCESS = 'SUCCESS'
 const FAIL = 'FAIL'
-const RESET_STATE = 'RESET_STATE'
 
 // Action creators
 export function startBucket() {
@@ -21,12 +20,10 @@ export function fail() {
 }
 
 // Reducer
-const cardImport = require('../Fixtures/cardData.json').cards
-const [initialCard, ...initialBucket] = cardImport
 const INITIAL_STATE = Immutable({
-  cards: cardImport,
-  currentCard: initialCard,
-  currentBucket: initialBucket,
+  cards: require('../Fixtures/cardData.json').cards,
+  currentCard: {},
+  currentBucket: [],
 })
 
 // TODO: move logic to actions/sagas
@@ -45,7 +42,6 @@ export function cards(state = INITIAL_STATE, action) {
   case SUCCESS: {
     const [currentCard, ...currentBucket] = state.currentBucket
 
-    // TODO: handle empty
     return {
       ...state,
       currentBucket,
@@ -55,15 +51,12 @@ export function cards(state = INITIAL_STATE, action) {
   case FAIL: {
     const [currentCard, ...currentBucket] = state.currentBucket
 
-    // TODO: handle empty
     return {
       ...state,
       currentBucket: [...currentBucket, state.currentCard],
       currentCard,
     }
   }
-  case RESET_STATE:
-    return INITIAL_STATE
   default:
     return state
   }

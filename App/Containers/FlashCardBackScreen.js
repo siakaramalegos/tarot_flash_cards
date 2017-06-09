@@ -4,8 +4,10 @@ import {success, fail} from '../Redux/CardRedux'
 import FlashCardBack from '../Components/FlashCardBack'
 
 const mapStateToProps = (state) => {
+  // TODO: add reselect?
   return {
     currentCard: state.cards.currentCard,
+    bucketEmpty: state.cards.currentBucket.length === 0,
   }
 }
 
