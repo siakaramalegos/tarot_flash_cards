@@ -1,12 +1,9 @@
 import { connect } from 'react-redux'
 // Add Actions - replace 'Your' with whatever your reducer is called :)
 // import YourActions from '../Redux/YourRedux'
-
 import FlashCardBack from '../Components/FlashCardBack'
 
-
 const mapStateToProps = (state) => {
-  console.tron.log(state)
   return {
     currentCard: state.cards.currentCard,
   }

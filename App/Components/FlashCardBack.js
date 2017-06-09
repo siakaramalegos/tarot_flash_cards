@@ -1,12 +1,12 @@
 import React, {Component, PropTypes} from 'react'
 import { View, Text, Image } from 'react-native'
 import { Images } from '../Themes'
-import styles from '../Containers/Styles/FlashCardsScreenStyle'
+import styles from './Styles/FlashCardsScreenStyle'
 
 export default class FlashCardBack extends Component {
   static propTypes = {
     currentCard: PropTypes.object.isRequired,
-  }
+  };
 
   static navigationOptions = {
     tabBarLabel: 'Flash Cards',
